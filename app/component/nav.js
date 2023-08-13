@@ -12,11 +12,11 @@ const Nav = () => {
        <Magnetic><div className="contact"><img src="./logo2.png"/></div></Magnetic>
       
       <motion.div initial={{opacity:0}} exit={{opacity:1}} animate={{opacity:1}} className="ma">
-       <Link href="/" ><div>TENZIN</div></Link>
-       <Link href="/" > <div>DELEK</div></Link>
-       <Link href="/" > <div>2023</div></Link>
-       <Link href="/" ><div>CREATIVE</div></Link>
-       <Link href="/" ><div>PORTFOLIO</div></Link>
+      <div>TENZIN</div>
+        <div>DELEK</div>
+        <div>2023</div>
+       <div>CREATIVE</div>
+      <div>PORTFOLIO</div>
       </motion.div>
       <div className="dn">
         <div className="innerdn">
