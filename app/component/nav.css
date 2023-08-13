@@ -1,0 +1,116 @@
+.mai {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -30px;
+}
+.dn {
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: #cfcfcf;
+  min-height: 2.5vw;
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+.innerdn {
+  opacity: 0.7;
+  background-color: #f7f2f2;
+  height: 1.3vw;
+  width: 4vw;
+  border-radius: 4rem;
+}
+.cirlce {
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3de823;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 5rem;
+}
+.sizee {
+
+  height: 30px;
+  width: 20px;
+  color: #eeeeee;
+}
+.ma div {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 2rem;
+}
+.ma div:hover {
+  color: #cfcfcf;
+}
+.ma {
+  height: 3.5rem;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  gap: 1rem;
+  padding: 1rem;
+  margin-left: 3srem;
+  margin-top: 1rem;
+  background-color: #cfcfcf68;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+.contact {
+  margin-top: -2rem;
+ height: 150px;
+ margin-left: -3rem;
+cursor: pointer;
+}
+.contact img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width:40rem) {
+  .ma div {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 2rem;
+    font-size: 10px;
+  }
+  .mai .dn {
+    display: none;
+   
+  }
+  .contact {
+    display: none;
+  }
+  .mai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+  }
+  .ma {
+    width: 90%;
+    height: 3.5rem;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    gap: .3rem;
+    padding: 1rem;
+    margin-left: 3srem;
+    margin-top: 1rem;
+    background-color: #cfcfcf68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    cursor: pointer;
+  }
+}

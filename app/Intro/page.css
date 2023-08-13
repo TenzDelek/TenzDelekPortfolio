@@ -1,0 +1,240 @@
+.outer11{
+  
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    grid-template-columns:  200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px ;
+    grid-auto-rows: 200px;
+    transition: all 0.3s ease-in-out;
+}
+.outer12 .para{
+    max-width: 80%;
+  
+}
+.mix{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.outer12:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.outer12{
+    display:flex ;
+   
+    text-align: center;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    padding: 1rem;
+   grid-area: 1/1/4/6;
+   transition: all 0.3s ease-in-out;
+}
+.upp1{
+
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: -15px;
+}
+.butto1:hover{
+    
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.butto1{
+ 
+    margin-top: 1rem;
+  color: #525252;
+  background-color: #e6e6e6;
+ height: 3rem;
+  width: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.outer11 span{
+    font-size: 50px;
+    background: -webkit-linear-gradient(45deg,#e95907, #fec958);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.mix1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 15px;
+   position: relative;
+}
+.mix1 .school{
+   padding: 2rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    font-size: 50px;
+    width: 70%;
+    color: #525252;
+   height: 100%;
+   font-weight: 600;
+   text-transform: uppercase;
+    background-color: #ffffff;
+}
+.tcv{
+    background: url("https://www.zamit.one/ZamitData/Content/Institute/8275/Images/27102017T164754814.png");
+    color: transparent;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 1.2rem;
+    margin-right: -40px;
+}
+.vit{
+    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1024px-Vellore_Institute_of_Technology_seal_2017.svg.png");
+    color: transparent;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+   margin-left: 1rem;
+    margin-right: -10px;
+}
+.pic img{
+    position: absolute;
+    z-index: 999;
+    height: 150px;
+    object-fit: contain;
+    transition: all 0.3s;
+    transform:  rotate(-3deg);
+}
+
+.pic:hover img {
+    transform: scale(1.3) rotate(5deg);
+  }
+  .moun{
+    background: url("../../public/moun.png");
+    color: transparent;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-left: 1rem;
+    margin-right: -10px;
+  }
+  @media (max-width:40rem) {
+    .mix{
+       display: flex;
+       width: 100%;
+    }
+       .mix .outer11{
+           width: 80%;
+           margin-top: 2rem;
+       display: flex;
+       justify-content: center;
+       margin: 1rem;
+           
+       }
+       .mix .outer112{
+           margin-top: 2rem;
+       display: flex;
+       justify-content: center;
+       margin: 1rem;
+       
+       }
+       .outer12 .butto1{
+       
+         color: #3a3a3a;
+         background-color: #e6e6e6;
+        height: 4rem;
+        width: 30vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 4rem;
+         transition: all 0.3s ease-in-out;
+         cursor: pointer;
+   
+       }
+       .outer12{
+           width: 100%;
+           display:flex ;    
+           text-align: center;
+           font-weight: 500;
+           justify-content: center;
+            align-items: center;
+           background-color: #FFFFFF;
+          transition: all 0.3s ease-in-out;
+       }
+
+
+       .mix1{
+        height: 64vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       position: relative;
+       
+    }
+    .mix1 .school{
+       padding: 2rem;
+       margin-right: 3rem;
+        overflow: hidden;
+        border-radius: 2rem;
+        font-size: 30px;
+        width: 80%;
+        
+        color: #525252;
+       height: 100%;
+       font-weight: 600;
+       text-transform: uppercase;
+        background-color: #ffffff;
+    }
+    .tcv{
+        background: url("https://www.zamit.one/ZamitData/Content/Institute/8275/Images/27102017T164754814.png");
+        color: transparent;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 1.2rem;
+        margin-right: -20px;
+    }
+    .vit{
+        background: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1024px-Vellore_Institute_of_Technology_seal_2017.svg.png");
+        color: transparent;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        background-size: contain;
+       margin-left: 1rem;
+        margin-right: -10px;
+    }
+    .pic img{
+        position: absolute;
+        z-index: 999;
+        height: 50px;
+        left: 70px;
+        top: 280px;
+        object-fit: contain;
+        transition: all 0.3s;
+        transform:  rotate(-3deg);
+    }
+    
+      .moun{
+        background: url("../../public/moun.png");
+        color: transparent;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        background-size: contain;
+       margin-left: 1rem;
+        margin-right: -10px;
+      }
+   }
