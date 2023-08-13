@@ -1,9 +1,9 @@
 'use client';
 import React from "react";
 import "./content.css";
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import Image from "next/image";
-import CircularProgressBar from "./component/circles";
-import "react-circular-progressbar/dist/styles1.css";
 import Link from "next/link";
 import { motion } from "framer-motion"
 const Contents = () => {
@@ -64,7 +64,7 @@ animate:{
       </motion.div>
        <motion.div exit={{opacity:0}}  variants={fadeinright} whileHover={{scale:1.02}} whileTap={{scale:0.5}} className="outer2">
         <div className="first">
-          <CircularProgressBar value="50" />
+          <CircularProgressbar value="50" />
           <Image
             alt="tenzin3"
             className="tenz"
@@ -74,7 +74,7 @@ animate:{
           />
         </div>
         <div className="sec">
-          <CircularProgressBar value="60" />
+          <CircularProgressbar value="60" />
           <Image
             alt="tenzin2"
             className="tenz"
@@ -84,7 +84,7 @@ animate:{
           />
         </div>
         <div className="third">
-          <CircularProgressBar value="70" />
+          <CircularProgressbar value="70" />
           <Image
             alt="tenzin1"
             className="tenz"
